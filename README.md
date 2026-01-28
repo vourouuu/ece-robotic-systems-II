@@ -42,8 +42,11 @@ Open a new terminal and follow the above steps:
       cd <your_path>
 2. ```bash
       python3 -m venv .venv
+   ```
+   ```bash
+      source .venv/bin/activate
    ```  
-   - Create a new vitual environment in <your_path>.   
+   - Create and activate a new vitual environment in <your_path>.   
 3. ```bash
       pip install pybind11
    ```  
