@@ -62,6 +62,10 @@ If you want to run examples from examples\_python folder follow these steps (sta
       cd candle/examples_python
    ```
 3. ```bash
-      example15.py
+      examplei.py
    ```
    
+If you want to find drivers, run:
+* ```bash
+     mdtool ping all
+  ```
