@@ -25,16 +25,16 @@ Open a terminal and follow the above steps:
    ```
 3. ```bash
       sudo adduser <current_username> dialout
-    ```  
-  - This adds your current user to the dialout group. In Linux, this is required to give your user permission to read and write to serial/USB ports (like the CANdle adapter) without needing sudo for every command.
+   ```  
+   - This adds your current user to the dialout group. In Linux, this is required to give your user permission to read and write to serial/USB ports (like the CANdle adapter) without needing sudo for every command.
 4. ```bash
       sudo apt install ./mdtool-amd64-1.5.4-Linux.deb
    ```  
-  - This installs the MDtool console application.
+   - This installs the MDtool console application.
 5. ```bash
       sudo apt install setserial
    ```  
-  - This installs a utility that allows MDtool to configure the serial port for higher communication speeds and lower latency, which is critical for real-time motor control.  
+   - This installs a utility that allows MDtool to configure the serial port for higher communication speeds and lower latency, which is critical for real-time motor control.  
 
 ### [CANdle (python) library installation](https://github.com/mabrobotics/candle/tree/main)  
 Open a new terminal and follow the above steps:
@@ -42,8 +42,11 @@ Open a new terminal and follow the above steps:
       cd <your_path>
 2. ```bash
       python3 -m venv .venv
+   ```
+   ```bash
+      source .venv/bin/activate
    ```  
-   - Create a new vitual environment in <your_path>.   
+   - Create and activate a new vitual environment in <your_path>.   
 3. ```bash
       pip install pybind11
    ```  
