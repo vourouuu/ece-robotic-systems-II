@@ -1,16 +1,21 @@
-# Robotic Systems II
+# ECE - Robotic Systems II
+This course, taught by Associate Professor Konstantinos Chatzilygeroudis, is part of the 9th semester curriculum at the Department of Electrical and Computer Engineering, University of Patras.  
+Throughout the semester, we are assigned four practical exercises, which I have included in this Git repository.
 
 ---
 
 ## 1st exercise
+There is a detailed README.md file in the exercise-1 folder.
 
 ---
 
 ## 2nd exercise
+There is a detailed README.md file in the exercise-2 folder.
 
 ---
 
 ## 3rd exercise
+There is a detailed README.md file in the exercise-3 folder.
 
 ---
 
