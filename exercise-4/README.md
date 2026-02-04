@@ -1,9 +1,34 @@
 # System: Double Pendulum
-
-![1. Double Pendulum - Front view (motors only)](exercise-4/figures/double-pendulum/motors.jpg)
-![2. Double Pendulum arrangement - Top view](exercise-4/figures/double-pendulum/arrangement-1-top-view.jpg)
-![3. Double Pendulum - Front view](exercise-4/figures/double-pendulum/arrangement-1-front-side.jpg)
-![4. Double Pendulum - Angled view](exercise-4/figures/double-pendulum/arrangement-1-angled-view.jpg)
+<table style="width: 100; border: none;">
+  <tr>
+    <td align="center">
+      <figure>
+        <img src="figures/double-pendulum/motors.jpg" width="50%">
+        <figcaption>1. Motors</figcaption>
+      </figure>
+    </td>
+    <td align="center">
+      <figure>
+        <img src="figures/double-pendulum/arrangement-1-top-view.jpg" width="100%">
+        <figcaption>2. Top view</figcaption>
+      </figure>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <figure>
+        <img src="figures/double-pendulum/arrangement-1-front-view.jpg" width="100%">
+        <figcaption>3. Front view</figcaption>
+      </figure>
+    </td>
+    <td align="center">
+      <figure>
+        <img src="figures/double-pendulum/arrangement-1-angled-view.jpg" width="100%">
+        <figcaption>4. Angled view</figcaption>
+      </figure>
+    </td>
+  </tr>
+</table>
 
 ---
 

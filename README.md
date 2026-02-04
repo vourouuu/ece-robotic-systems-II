@@ -1,20 +1,27 @@
-# Robotic Systems II
+# ECE - Robotic Systems II
+This course, taught by Associate Professor Konstantinos Chatzilygeroudis, is part of the 9th semester curriculum at the Department of Electrical and Computer Engineering, University of Patras.
+Throughout the semester, we are assigned four practical exercises, which I have included in this Git repository.
 
 ---
 
 ## 1st exercise
+There is a detailed README.md file in the exercise-1 folder.
 
 ---
 
 ## 2nd exercise
+There is a detailed README.md file in the exercise-2 folder.
 
 ---
 
 ## 3rd exercise
+There is a detailed README.md file in the exercise-3 folder.
 
 ---
 
 ## 4th exercise (Linux OS instructions)
+There is a detailed README.md file in the exercise-4 folder. Additionally, an extra library is required for the physical system simulation of the double pendulum.
+
 ### [MAB Ecosystem](https://mabrobotics.github.io/MD80-x-CANdle-Documentation/intro.html)
 ### [Installing MDtool](https://github.com/mabrobotics/mdtool/tree/main)  
 1. Download [mdtool-amd64-1.5.4-Linux.deb](https://github.com/mabrobotics/mdtool/releases)
