@@ -20,6 +20,8 @@ There is a detailed README.md file in the exercise-3 folder.
 ---
 
 ## 4th exercise (Linux OS instructions)
+There is a detailed README.md file in the exercise-4 folder. Additionally, an extra library is required for the physical system simulation of the double pendulum.
+
 ### [MAB Ecosystem](https://mabrobotics.github.io/MD80-x-CANdle-Documentation/intro.html)
 ### [Installing MDtool](https://github.com/mabrobotics/mdtool/tree/main)  
 1. Download [mdtool-amd64-1.5.4-Linux.deb](https://github.com/mabrobotics/mdtool/releases)
