@@ -1,43 +1,86 @@
-Υπάρχουν 3 αρχεία με κώδικα σε Jupyter Notebook.  
-Σε καθένα από αυτά οι προσομοιώσεις είναι σε σχόλιο εντός του κώδικα, γιατί κάνουν 1-2 λεπτά ώσπου να φορτώσουν.  
-Για ευκολία, λοιπόν, έχει δημιουργηθεί ο φάκελος ***simulations*** με τα αντίστοιχα αρχεία .mp4.
+# System: Planar Quadrotor (simulation)
 
-## Αρχείο 1-modeling.ipynb
-Εάν θέλετε να τρέξετε την προσομοίωση μπορείτε να βγάλετε από σχόλιο τις γραμμές
+---
 
-`print("Wait for simulation...")`
-`simulation(xs, x0, x_ref)`
+# 1. Create virtual environment
+```bash
+cd ece-robotic-systems-II/exercise-2/code
+```
 
-στο τέλος του κελιού 7.
+```bash
+python -m venv .venv
+```
 
-## Αρχείο 2-LQR.ipynb
-Εάν θέλετε να τρέξετε την προσομοίωση μπορείτε να βγάλετε από σχόλιο τις γραμμές
+```bash
+source .venv/bin/activate
+```
 
-`print("Wait for simulation...")`
-`simulation(xs, x0, x_ref)`
+```bash
+pip install -r requirements.txt
+```
 
-στο τέλος του κελιού 9. Αντίστοιχα, μπορείτε να κάνετε δοκιμές για διαφορετικά `x_fef, u_ref` και εξωτερικές δυνάμεις `F_ext1, F_ext2` στο ίδιο κελί.  
-Επίσης, στο κελί 11 μπορείτε να τροποποιήσετε τα `x_target`, `max_vel`, `Fext1`, `Fext2` ώστε να δείτε τα πόσο μακριά μπορεί να φτάσει το
-quadrotor σε σχέση με το σημείο γραμμικοποίησης.
+--- 
 
-## Αρχείο 3-MPC.ipynb
-Εάν θέλετε να τρέξετε την προσομοίωση για **MPC χωρίς θόρυβο**, μπορείτε να βγάλετε από σχόλιο τις γραμμές
+# 3. Folders' organization
+## assignment-report
+This folder contains the exercise assignment and my final report.
 
-`print("Wait for simulation...")`
-`simulation(xs, x0, x_ref)`
+---
 
-στο τέλος του κελιού 12.
+## exercise-2\code
+There are 3 Jupyter Notebook files containing code.  
+In each of them, the simulations are commented out within the code because they take 1-2 minutes to load.  
+For convenience, a folder named ***simulations*** has been created with the corresponding .mp4 files.
 
-Εάν θέλετε να τρέξετε την προσομοίωση για **MPC με θόρυβο**, μπορείτε να βγάλετε από σχόλιο τις γραμμές
+### 1-modeling.ipynb  
+If you want to run the simulation, you should uncomment the lines
 
-`print("Wait for simulation...")`
-`simulation(xs, x0, x_ref)`
+```python
+print("Wait for simulation...")
+simulation(xs, x0, x_ref)
+```
 
-στο τέλος του κελιού 14. Επιπλέον, πρέπει να τρέξετε τον κώδικα από το κελί 1 μέχρι και το κελί 11 και έπειτα να μεταβείτε στα κελιά 14 και 15 αντίστοιχα.
+at the end of Cell 7.
 
-Εάν θέλετε να τρέξετε την προσομοίωση για την **παρακολούθηση της 2D τροχιάς**, μπορείτε να βγάλετε από σχόλιο τις γραμμές
+### 2-LQR.ipynb  
+If you want to run the simulation, you should uncomment the lines
 
-`print("Wait for simulation...")`
-`simulation(xs_track, x0, x0, traj=traj)`
+```python
+print("Wait for simulation...")
+simulation(xs, x0, x_ref)
+```
 
-στο τέλος του κελιού 19. Επιπλέον, πρέπει να τρέξετε τον κώδικα από το κελί 1 μέχρι και το κελί 7 και έπειτα να μεταβείτε στα κελιά 16 έως 23 αντίστοιχα.
+at the end of Cell 9. Similarly, you are able to test different ```x_ref```, ```u_ref``` and external forces ```F_ext1```, ```F_ext2``` in the same cell.  
+Also, in Cell 11 you can modify ```x_target```, ```max_vel```, ```Fext1```, and ```Fext2``` to see how far the quadrotor can reach relative to the linearization point.
+
+### 3-MPC.ipynb
+If you want to run the simulation for **MPC without noise**, you should uncomment the lines
+
+```python
+print("Wait for simulation...")
+simulation(xs, x0, x_ref)
+```
+
+at the end of Cell 12.  
+
+If you want to run the simulation for **MPC with noise**, you should uncomment same lines at the end of Cell 14. Additionally, you need to run the code from Cell 1 up to Cell 11 first, then proceed to Cells 14 and 15 respectively.  
+
+If you want to run the simulation for 2D trajectory tracking, you should uncomment the lines
+
+```python
+print("Wait for simulation...")
+simulation(xs_track, x0, x0, traj=traj)
+```
+
+at the end of Cell 19. Additionally, you need to run the code from Cell 1 up to Cell 7 first, then proceed to Cells 16 through 23 respectively.
+
+---
+
+## exercise-2\figures
+Here are figures of the simulations corresponding to each part of the exercise.  
+
+---
+
+## exercise-2\simulations
+Here are videos of the simulations corresponding to each part of the exercise.  
+In each video, the initial and desired state of the pendulum are indicated.
