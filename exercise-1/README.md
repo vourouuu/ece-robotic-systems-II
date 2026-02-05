@@ -2,7 +2,7 @@
 
 ---
 
-# 1. Create virtual environment
+## 1. Create virtual environment
 ```bash
 cd ece-robotic-systems-II/exercise-1/code
 ```
@@ -19,20 +19,20 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-# 2. Install dependencies
+## 2. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
 --- 
 
-# 3. Folders' organization
-## assignment-report
+## 3. Folders' organization
+### assignment-report
 This folder contains the exercise assignment and my final report.
 
 ---
 
-## exercise-1\code
+### exercise-1\code
 There are 3 Jupyter Notebook files containing code:  
 
 * 1-modeling.ipynb
@@ -41,5 +41,5 @@ There are 3 Jupyter Notebook files containing code:
 
 ---
 
-## exercise-1\figures
+### exercise-1\figures
 Here are figures of the simulations corresponding to each part of the exercise.  
