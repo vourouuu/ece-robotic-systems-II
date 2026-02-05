@@ -2,9 +2,9 @@
 
 ---
 
-# 1. Create virtual environment
+## 1. Create virtual environment
 ```bash
-cd ece-robotic-systems-II/homework-3/code
+cd ece-robotic-systems-II/homeworks/homework-3/code
 ```
 
 ```bash
@@ -15,19 +15,22 @@ python -m venv .venv
 source .venv/bin/activate
 ```
 
+---
+
+## 2. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
 --- 
 
-# 3. Folders' organization
-## assignment-report
+## 3. Folders' organization
+### assignment-report
 This folder contains the homework assignment and my final report.
 
 ---
 
-## homework-3\code
+### code
 There are 3 <code>.ipynb</code> files:  
 
 * 1-modeling.ipynb
@@ -36,6 +39,6 @@ There are 3 <code>.ipynb</code> files:
 
 ---
 
-## homework-3\simulations
+### simulations
 Here are videos of the simulations corresponding to each part of the homework.  
 In each video, the initial and desired state of the pendulum are indicated.

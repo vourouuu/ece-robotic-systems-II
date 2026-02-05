@@ -2,7 +2,7 @@
 
 ---
 
-# 1. Create virtual environment
+## 1. Create virtual environment
 ```bash
 cd ece-robotic-systems-II/homework-2/code
 ```
@@ -21,6 +21,7 @@ pip install -r requirements.txt
 
 --- 
 
+<<<<<<< HEAD:homeworks/homework-2/README.md
 # 3. Folders' organization
 ## assignment-report
 This folder contains the homework assignment and my final report.
@@ -28,11 +29,20 @@ This folder contains the homework assignment and my final report.
 ---
 
 ## homework-2\code
+=======
+## 2. Folders' organization
+### assignment-report
+This folder contains the exercise assignment and my final report.
+
+---
+
+### exercise-2\code
+>>>>>>> 4af92fd5546321e61f4a5e929fd376c4154f1451:exercise-2/README.md
 There are 3 Jupyter Notebook files containing code.  
 In each of them, the simulations are commented out within the code because they take 1-2 minutes to load.  
 For convenience, a folder named ***simulations*** has been created with the corresponding .mp4 files.
 
-### 1-modeling.ipynb  
+* **1-modeling.ipynb**  
 If you want to run the simulation, you should uncomment the lines
 
 ```python
@@ -42,7 +52,7 @@ simulation(xs, x0, x_ref)
 
 at the end of Cell 7.
 
-### 2-LQR.ipynb  
+* **2-LQR.ipynb**  
 If you want to run the simulation, you should uncomment the lines
 
 ```python
@@ -53,7 +63,7 @@ simulation(xs, x0, x_ref)
 at the end of Cell 9. Similarly, you are able to test different ```x_ref```, ```u_ref``` and external forces ```F_ext1```, ```F_ext2``` in the same cell.  
 Also, in Cell 11 you can modify ```x_target```, ```max_vel```, ```Fext1```, and ```Fext2``` to see how far the quadrotor can reach relative to the linearization point.
 
-### 3-MPC.ipynb
+* **3-MPC.ipynb**
 If you want to run the simulation for **MPC without noise**, you should uncomment the lines
 
 ```python
@@ -76,6 +86,7 @@ at the end of Cell 19. Additionally, you need to run the code from Cell 1 up to 
 
 ---
 
+<<<<<<< HEAD:homeworks/homework-2/README.md
 ## homework-2\figures
 Here are figures of the simulations corresponding to each part of the homework.  
 
@@ -84,3 +95,13 @@ Here are figures of the simulations corresponding to each part of the homework.
 ## homework-2\simulations
 Here are videos of the simulations corresponding to each part of the homework.  
 In each video, the initial and desired state of the pendulum are indicated.
+=======
+### exercise-2\figures
+Here are figures of the simulations corresponding to each part of the exercise.  
+
+---
+
+### exercise-2\simulations
+Here are videos of the simulations corresponding to each part of the exercise.  
+In each video, the initial and desired state of the pendulum are indicated.
+>>>>>>> 4af92fd5546321e61f4a5e929fd376c4154f1451:exercise-2/README.md

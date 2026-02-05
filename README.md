@@ -52,5 +52,3 @@ If you want to run examples from examples\_python folder follow these steps (sta
 
 If you want to find drivers, run:  
 1. ```mdtool ping all```
-
-Keep in mind that it is necessary to change the library in every example file from ```import pyCandle``` to ```pyCandleMAB```.
