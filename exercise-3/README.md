@@ -2,7 +2,7 @@
 
 ---
 
-# 1. Create virtual environment
+## 1. Create virtual environment
 ```bash
 cd ece-robotic-systems-II/exercise-3/code
 ```
@@ -21,13 +21,13 @@ pip install -r requirements.txt
 
 --- 
 
-# 3. Folders' organization
-## assignment-report
+## 3. Folders' organization
+### assignment-report
 This folder contains the exercise assignment and my final report.
 
 ---
 
-## exercise-3\code
+### exercise-3\code
 There are 3 <code>.ipynb</code> files:  
 
 * 1-modeling.ipynb
@@ -36,6 +36,6 @@ There are 3 <code>.ipynb</code> files:
 
 ---
 
-## exercise-3\simulations
+### exercise-3\simulations
 Here are videos of the simulations corresponding to each part of the exercise.  
 In each video, the initial and desired state of the pendulum are indicated.
