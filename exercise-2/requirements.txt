@@ -1,4 +1,0 @@
-numpy
-jax
-matplotlib
-proxsuite
