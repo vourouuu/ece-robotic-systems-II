@@ -45,11 +45,6 @@ damp2 = 0.0005106535523065844 # damping
 torque_limit = 0.09
 # torque_limit = 0.15
 
-# Cost matrices
-Q = np.diag([500., 500., 10., 10.]) 
-R = 20. * np.eye(Nc)
-QF = 2000. * np.eye(Ns)
-
 # CANdle obj
 candle = pyCandle.Candle(pyCandle.CAN_BAUD_1M, True)
 ids = candle.ping() # motors' ids
